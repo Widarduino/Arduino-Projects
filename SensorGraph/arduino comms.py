@@ -20,7 +20,7 @@ time.sleep(1)
 serialCom.flushInput()
 serialCom.setDTR(True)
 
-kmax = 5 #number of data points
+kmax = 35 #number of data points
 for k in range(kmax):
     try:
         #reads line
